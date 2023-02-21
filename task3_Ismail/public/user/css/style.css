@@ -1,0 +1,10 @@
+.buttn-success{
+    background-color: #5cb85c !important;
+    border-color: #4cae4c !important;
+    color: #fff;
+}
+.buttn-danger{
+    background-color: #d9534f !important;
+    border-color: #d43f3a !important;
+    color: #fff;
+}
