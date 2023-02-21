@@ -1,0 +1,124 @@
+.banner-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.slide-sub-title{
+    position: absolute;
+    padding-top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+}
+
+.btndesign{
+
+    padding: 10px 40px;
+    margin-top: 60px !important;
+    text-align: center;
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+a{
+  color: #FFFFFF;
+}
+a:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.nav {
+  height: 50px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+
+.nav-title {
+  display: inline-block;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav-links {
+  display: inline;
+  text-transform: uppercase;
+  float: right !important;
+  font-size: 15px;
+
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+hr{
+  border: 1px solid #aaa5a5;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+  }
+
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 30px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 30%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 54px;
+    left: 330px;
+  }
+
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
