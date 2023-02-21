@@ -11,6 +11,6 @@
 
 In this task, you’ll need to create a Laravel Authentication. This authentication should have multiple roles. There should be admins and users. A user will be able to register and wait till approved. An admin can see all the pending user approvals and approve them. Before approval, when a user logins, the dashboard will only show that “Your registration is pending approval from an Admin” and will not have permission to do anything else. But after approval, the user should have all the user privileges. A demo video is given below. Check the video to understand the task better. (Laravel 8/9 required)
 
--   [Video Link:](htinyurl.com/task-3-laravel).
+-   [Video Link: tinyurl.com/task-3-laravel](tinyurl.com/task-3-laravel).
 
 ## Testing Step
