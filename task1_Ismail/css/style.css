@@ -159,6 +159,10 @@ hr{
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
+
+.about{
+  padding-top: 20px;
+}
 }
 
 .card-image{
@@ -266,3 +270,29 @@ height: 300px;
 .carousel-text>h4{
   font-style: italic;
 }
+
+.footer1{
+  background-color: #3a3e64;
+  color: #ffffff;
+  padding-top: 3%;
+  padding-bottom:4%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.footericon>a{
+    color: #ffffff !important;
+    font-size: 25px;
+    padding: 8px;
+    border: 3px solid #ffffff !important;
+    text-decoration: none;
+  }
+  .footer2{
+    background-color: #313454;
+    color: #b7b6b6;
+  }
+  .footer2> p > b{
+    color: #ffffff !important;
+  }
+  .footer2> p > i{
+    color: #ff0606 !important;
+  }
