@@ -20,17 +20,18 @@
     padding: 10px 40px;
     margin-top: 60px !important;
     text-align: center;
-    background-color: #ff0000;
-    border: 1px solid #ff0000;
+    background-color: #cd2e2e;
+    border: 1px solid #cd2e2e;
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
     cursor: pointer;
 }
-a{
+.btndesign >a{
   color: #FFFFFF;
+  text-decoration: none;
 }
-a:hover{
+.btndesign > a:hover{
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -158,4 +159,110 @@ hr{
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
+}
+
+.card-image{
+  padding-right: 2px !important;
+  padding-left: 2px !important;
+
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+height: 300px;
+  transition: filter 0.3s ease-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay h3,
+.overlay p {
+  color: #fff;
+  border-radius: 5px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+  display: block;
+
+}
+
+.image-container:hover img {
+  filter: blur(5px);
+}
+
+.image-container:hover .overlay {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon> a{
+  color: #b2abab !important;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* carousel */
+#myCarousel {
+	width: 100%;
+	margin: 0 auto;
+}
+.carousel-item {
+	height: 100%;
+}
+.carousel-item > div {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.carousel-item img {
+	height: 100%;
+	width: 100%;
+  object-fit: cover;
+}
+
+.carousel-img{
+  background-color: #333;
+}
+.carousel-indicators {
+  margin-left: 50% !important;
+  padding-bottom: 5% !important;
+}
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 12px !important;
+  height: 12px !important;
+
+}
+
+
+.carousel-text{
+  color: #ffffff;
+  background-color: #533448;
+  text-align: left;
+  margin-bottom: 0px;
+  padding-top: 7%;
+  padding-left: 5%;
+  padding-right: 20%;
+  padding-bottom: 0px;
+}
+
+.carousel-text>h4{
+  font-style: italic;
 }
