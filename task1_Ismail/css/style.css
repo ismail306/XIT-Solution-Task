@@ -294,8 +294,9 @@ height: 300px;
     background-color: #313454;
     color: #b7b6b6;
   }
-  .footer2> p > b{
+  .footer2> p > a{
     color: #ffffff !important;
+    text-decoration: none;
   }
   .footer2> p > i{
     color: #ff0606 !important;
